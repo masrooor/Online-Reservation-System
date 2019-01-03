@@ -4,28 +4,21 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="myStyle.css">
-  
 </head>
 <body>
-    
-       <div id="m-head">
-    <h1>PakAirLine.com</h1>
+    <div id="m-head">
+        <h1>PakAirLine.com</h1>
     </div>
-    
     <form id="form" >
-        
-        
-                    
-    <ul id="top" >
-        <li><a href="admin.html" >Registration</a></li>
-        <li><a href="Resservation.html"  >Reservation</a></li>
-         <li><a href="Schedules.html" >Schedules</a></li>
-          <li><a  href="Seat Availability.html">Seat Availability</a></li>
-           <li><a href="Flight status.html" >Flight Status</a></li>
+        <ul id="top" >
+            <li><a href="admin.html" >Registration</a></li>
+            <li><a href="Resservation.html"  >Reservation</a></li>
+            <li><a href="Schedules.html" >Schedules</a></li>
+            <li><a  href="Seat Availability.html">Seat Availability</a></li>
+            <li><a href="Flight status.html" >Flight Status</a></li>
             <li><a href="My booking.html" >My Booking</a></li>
-    </ul>
-    </br> </br>  </br> </br> 
-    
+        </ul>
+        </br> </br>  </br> </br> 
         <input onclick="myfunc()"   class="form1" type="radio" name="ftype"  >One Way:
         <input onclick="myFunc()" class="form1" type="radio" name="ftype" value="Return Trip" checked >Return Trip:</br></br>
         <span  class="fname">From:</span>
@@ -37,181 +30,67 @@
             <option>Islamabad, Pakistan</option>
             <option>Multan, Pakistan</option>
         </select></br></br>
-         <span   class="fname">To:</span>
-        <select  class="select">
+        <span class="fname">To:</span>
+        <select class="select">
             <option>Karachi, Pakistan</option>
             <option>Lahore, Pakistan</option>
             <option>Rawalpindi, Pakistan</option>
             <option>Peshawar, Pakistan</option>
             <option>Islamabad, Pakistan</option>
             <option>Multan, Pakistan</option>
-            
         </select> </br></br>
-         <span   class="fname">Departure:</span>
-        <!--<select   class="num">
-             <option> 1</option>
-            <option> 2</option>
-            <option> 3</option>
-            <option> 4</option>
-            <option> 5</option>
-            <option> 6</option>
-            <option> 7</option>
-            <option> 8</option>
-            <option> 9</option>
-            <option> 10</option>
-            <option> 11</option>
-            <option> 12</option>
-            <option> 13</option>
-            <option> 14</option>
-            <option> 15</option>
-            <option> 16</option>
-            <option> 17</option>
-            <option> 18</option>
-            <option> 19</option>
-            <option> 20</option>
-            <option> 21</option>
-            <option> 22</option>
-            <option> 23</option>
-            <option> 24</option>
-            <option> 25</option>
-            <option> 26</option>
-            <option> 27</option>
-            <option> 28</option>
-            <option> 29</option>
-            <option> 30</option>
-            <option> 31</option>
-        </select>
-         <select   class="select">
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            <option>December, 2016</option>
-            
-            
-        </select>  -->       
+        <span class="fname">Departure:</span>
         <input type="date" class="select"></br></br>
         <span class="fname">Return:</span>
-       
-        <!-- <select id="number" class="num">
-            
-             <option> 1</option>
-            <option> 2</option>
-            <option> 3</option>
-            <option> 4</option>
-            <option> 5</option>
-            <option> 6</option>
-            <option> 7</option>
-            <option> 8</option>
-            <option> 9</option>
-            <option> 10</option>
-            <option> 11</option>
-            <option> 12</option>
-            <option> 13</option>
-            <option> 14</option>
-            <option> 15</option>
-            <option> 16</option>
-            <option> 17</option>
-            <option> 18</option>
-            <option> 19</option>
-            <option> 20</option>
-            <option> 21</option>
-            <option> 22</option>
-            <option> 23</option>
-            <option> 24</option>
-            <option> 25</option>
-            <option> 26</option>
-            <option> 27</option>
-            <option> 28</option>
-            <option> 29</option>
-            <option> 30</option>
-            <option> 31</option>
-        </select>
-        <select id="months" class="select">
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            <option>December 2016</option>
-            
-    
-        </select><br><br> -->
         <input type="date" class="select">
-    </br></br>
+        </br></br>
         <span  class="fname" class="mar">&nbsp &nbsp Adults:  </span>
         <span  class="fname" class="mar">&nbsp &nbsp Children:  </span>
         <span  class="fname" class="mar">&nbsp &nbsp &nbsp  Infants:</span><br><br>        
         <div  id="down">
-        <select  class="ddown">
-            <option>1</option>
-             <option>2</option>
-              <option>3</option>
-               <option>4</option>
+            <select  class="ddown">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
                 <option>5</option>
-        </select >
-        <select  class="ddown" >
-            <option>1</option>
-             <option>2</option>
-              <option>3</option>
-               <option>4</option>
+            </select>
+            <select  class="ddown" >
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
                 <option>5</option>
-                 <option>6</option>
-        </select>
-        <select  class="ddown">
-            <option>1</option>
-             <option>2</option>
-              <option>3</option>
-               <option>4</option>
+                <option>6</option>
+           </select>
+           <select  class="ddown">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
                 <option>5</option>
-                 <option>6</option>
+                <option>6</option>
         </select>
         
-</div>
-<br></br>
-            <button class="btn">Reserve</button>
+      </div>
+      <br></br>
+      <button class="btn">Reserve</button>
 
- </form>
+    </form>
+
+   
+</body>
 <script>
         function myfunc()
         {
             var x = document.getElementById('number').disabled=true;
-              var y = document.getElementById('months').disabled=true;
-
-          
+            var y = document.getElementById('months').disabled=true;
         }
          function myFunc()
         {
             var x = document.getElementById('number').disabled=false;
-              var y = document.getElementById('months').disabled=false;
-
-          
+            var y = document.getElementById('months').disabled=false;
         }
        
 </script>
-   
-</body>
 </html>
