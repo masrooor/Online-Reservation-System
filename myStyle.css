@@ -1,0 +1,222 @@
+/* Admin */
+body{
+    background-image:url("Malaysia Airlines Desktop Wallpapers (8).jpg"); 
+}
+h1{
+    margin:auto;
+    letter-spacing:4px;
+    background-color:white;
+    padding:20px;
+    color:white;
+    background-color:dimgray;
+    text-align: center;
+    font-family:sans-serif;
+}
+#form{
+        color:white;
+        background-color:darkslategrey;
+        width:800px;
+        height:600px;
+        border:2px double gray;
+        margin:auto;
+        text-align: center;
+        opacity:0.8;
+}
+li{
+    display: inline;
+     list-style-type:none; 
+}
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding: 0px;
+    background-color:#333;
+}
+li a{
+    display:inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#111;
+}
+.ntp{
+        width:300px;
+        height:25px;
+        border-radius: 7px;
+        border:none;
+        margin-top:5px;
+        padding:3px; 
+        font-size:18px;
+        font-weight:bold;
+}
+p{
+        font-size: 24px;
+        display: inline;
+}
+button{
+        width: 150px ;
+        height:35px ;
+        font-size: 16px;
+        background-color: #333 ;
+        color:white;
+        border:2px solid #333;
+}
+.anchor{
+
+        text-decoration: none;
+        color: white;
+    }
+.active{
+    background-color:black;
+}
+form{
+            font-family:sans-serif;
+    }
+#m-head{
+        margin-top:-10px;
+        width:1040px; 
+        height:120px;
+         margin:auto;
+         opacity:0.8;
+         margin-left: -8px;
+}
+#p-left{
+        width:300px;
+        height: 450px;
+        border:none;
+        margin:auto;
+}
+.aid{
+  margin-left:-190px;
+}
+.an{
+  margin-left:-152px;
+}
+.ap{
+  margin-left:-112px;
+}
+/* User */
+
+#t-feild{
+            text-align: center;
+}
+a:active{
+        text-decoration: none;
+        color:white;
+}
+.aid{
+  margin-left:-210px;
+}
+.an{
+  margin-left:-168px;
+}
+.ap{
+  margin-left:-129px;
+}
+/* FLight Status */
+a{
+    text-decoration: none;
+    color:white;
+}
+li {
+    list-style-type:none; 
+}
+.select{
+                width:300px;
+                height:30px;
+        }
+        .fname{
+            font-size: 24px  
+
+        }
+        .nm{
+            width : 60px ;
+            height: 20px;
+        }
+        .btn{
+            width: 150px;
+            height:30px ;
+            background-color: #333;
+            color: white;
+            border:none;
+            font-size: 16px; 
+        }
+/* Reservation */
+#back{
+        margin: 900px 0px 0px 500px;
+        width:400px;
+        height:200px;
+        border:1px solid black;
+        display:inline-block; 
+}
+li a:visited{
+            background-color: black;
+}
+#hi{
+    width:1040px;
+    height:100px;
+    border:1px solid black;
+    border-bottom: 2px double gray;
+    margin:-9px 0px 0px -10px ; 
+}
+#img{
+    width:300px;
+    height:100px;
+    margin:0px 0px 0px 400px;
+}
+.fname{
+         font-size: 24px  
+    }
+.select{
+         width:300px;
+         height:30px;
+            }
+.mar{
+            margin-left:20px;
+            display: inline-block;
+        }
+        .ddown{
+                margin: 0px 0px 0px 70px;
+                width: 50px;
+                height:30px;
+        }
+        #down{
+                margin-left:-70px;
+        }
+        .num{
+               height:30px; 
+        }
+/* Schedule */
+.fname{
+            font-size: 24px  
+
+        }
+        .select{
+                width:300px;
+                height:30px;
+        }
+        .num{
+               height:30px; 
+        }
+/* Seat */
+.fname{
+            font-size: 24px  
+
+        }
+        .select{
+                width:300px;
+                height:30px;
+        }
+       
+        .date{
+                width:150px;
+
+        }
+        .dname{
+                font-size:18px; 
+        }
+      
+        
